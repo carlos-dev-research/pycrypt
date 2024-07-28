@@ -17,12 +17,39 @@ PyCrypt is a command-line tool for encrypting and decrypting files and folders. 
 ## Installation
 
 1. **Clone the repository**:
+
    ```sh
    git clone https://github.com/your-username/pycrypt.git
    cd pycrypt
-
+   ```
 
 2. **Install the required library:**:
+
     ```sh
     pip install cryptography
+    ```
+
+## Usage
+
+### Encrypt a Folder
+
+Encrypts a folder by compressing it into a ZIP file and encrypting the ZIP file.
+
+```sh
+python pycrypt.py encrypt /path/to/folder
+```
+
+### Decrypt a File
+
+Decrypts an individual encrypted file.
+
+```sh
+python pycrypt.py decrypt /path/to/file.encrypted
+```
+
+## Acknowledgments
+
+This project uses the following Python libraries:
+
+- [cryptography](https://github.com/pyca/cryptography)
 
