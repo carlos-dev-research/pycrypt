@@ -1,6 +1,6 @@
 # PyCrypt
 
-PyCrypt is a command-line tool for encrypting and decrypting files and folders. It compresses folders into a ZIP archive, encrypts the archive, and can decrypt the archive back into the original files and folders.
+PyCrypt is a command-line tool for encrypting and decrypting files and folders.
 
 ## Features
 
@@ -19,7 +19,7 @@ PyCrypt is a command-line tool for encrypting and decrypting files and folders. 
 1. **Clone the repository**:
 
    ```sh
-   git clone https://github.com/your-username/pycrypt.git
+   git clone https://github.com/carlos-dev-research/pycrypt.git
    cd pycrypt
    ```
 
